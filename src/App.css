@@ -2,6 +2,48 @@
   text-align: center;
 }
 
+.border {
+  padding: 5px;
+}
+
+.navbar-nav {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  background-color: #61dafb;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+label {
+  margin: 8px
+}
+
+input {
+  margin: 3px
+}
+
+.card-footer {
+  margin-top: 25px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
